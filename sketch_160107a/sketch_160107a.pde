@@ -9,7 +9,7 @@ void setup(){
   fill(238,255,34);
   ellipse(250,250,200,200);
   Minim minim = new Minim(this);
-  sound = minim.loadSample("kitten-1.wav");  
+  sound = minim.loadSample("Soccergoal.wav");  
 }
 
 void draw(){
@@ -18,6 +18,7 @@ void draw(){
   image(pepperoni,260,260);
   image(pepperoni,205,225);
   if(mousePressed){
+   sound.trigger();
   image(pepperoni,mouseX,mouseY);
   sound.trigger();  
   
