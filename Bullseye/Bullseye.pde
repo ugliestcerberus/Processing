@@ -1,6 +1,21 @@
-size(500,500);
-for(int i=1000;i>0;i--){
-  fill(random(306),227,186); 
-  random(306);
-ellipse(250,200,25*i,20*i);
+void setup(){
+ size(500,500);
+   
+  
+}
+void draw(){
+ ellipse(200,300,200,200);
+ noFill();
+ ellipse(200,300,150,150);
+ noFill();
+ ellipse(200,300,100,100);
+ noFill();
+ ellipse(200,300,50,50);
+ noFill();
+ 
+
+  
+  
+  
+  
 }
